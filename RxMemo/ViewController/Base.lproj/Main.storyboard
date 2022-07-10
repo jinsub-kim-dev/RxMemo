@@ -27,7 +27,7 @@
         <!--메모 목록-->
         <scene sceneID="pAZ-GV-FTy">
             <objects>
-                <viewController id="U8P-vi-WiH" sceneMemberID="viewController">
+                <viewController id="U8P-vi-WiH" customClass="MemoListViewController" customModule="RxMemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Co-OU-32H">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,7 +43,7 @@
         <!--새 메모-->
         <scene sceneID="B4H-Lz-ZUT">
             <objects>
-                <viewController id="tXV-te-J50" sceneMemberID="viewController">
+                <viewController id="tXV-te-J50" customClass="MemoComposeViewController" customModule="RxMemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o6j-fs-pyP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,12 +54,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cQ9-g8-Aoh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4444.927536231884" y="-588.61607142857144"/>
+            <point key="canvasLocation" x="2438" y="-648"/>
         </scene>
         <!--메모 보기-->
         <scene sceneID="L1B-Ch-FQr">
             <objects>
-                <viewController storyboardIdentifier="DetailVC" id="Peu-yI-Grm" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailVC" id="Peu-yI-Grm" customClass="MemoDetailViewController" customModule="RxMemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3bl-Jv-jte">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,7 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3gS-m4-dGN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3535" y="103"/>
+            <point key="canvasLocation" x="1626" y="809"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tzE-nz-6hH">
@@ -107,7 +107,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tcj-jM-iyz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3534.7826086956525" y="-589.28571428571422"/>
+            <point key="canvasLocation" x="1593" y="-647"/>
         </scene>
     </scenes>
     <resources>
