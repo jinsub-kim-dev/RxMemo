@@ -16,7 +16,7 @@ class CommonViewModel: NSObject {
     let storage: MemoStorageType
     
     init(title: String, sceneCoordinator: SceneCoordinatorType, storage: MemoStorageType) {
-        self.title = Observable.just("title").asDriver(onErrorJustReturn: "")
+        self.title = Observable.just(title).asDriver(onErrorJustReturn: "")
         self.sceneCoordinator = sceneCoordinator
         self.storage = storage
     }
